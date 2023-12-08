@@ -1,0 +1,27 @@
+.bg-black{
+    background-color: #242423;
+  }
+  
+  .bg-light-black{
+    background-color: #f6f8f6;
+  }
+  
+  .font-light-black{
+    color: #333533;
+  }
+  
+  .font-white{
+    color: whitesmoke;
+  }
+
+  .clubNeme{
+    height: 4vh;
+    width: auto;
+    opacity: 50;
+    border-radius: 20px;
+    background-color: rgba(255, 231, 13, 0.42);
+  }
+
+  .card{
+    width: 25rem;
+  }

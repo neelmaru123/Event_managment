@@ -1,0 +1,31 @@
+
+  <div class="container">
+    <div class="row">
+        <lucide-icon name="arrow-left-circle" onclick="click()"></lucide-icon>
+    </div>
+    <form class="row g-3"  [formGroup]="eventForm" (ngSubmit)="save()">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Title</label>
+          <input type="text" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Type</label>
+          <input type="text" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Description</label>
+          <textarea type="text" class="form-control" id="inputAddress" placeholder="" ></textarea>
+        </div>
+        <div class="col-6">
+          <label for="inputAddress2" class="form-label">Max-Teamsize</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </form>    
+  </div>

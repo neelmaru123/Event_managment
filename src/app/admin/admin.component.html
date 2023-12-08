@@ -1,0 +1,21 @@
+<div class="container">
+    <div class='row'>
+        <div class="card pt-2 pb-2 bg-black font-white col-md-4 m-2 mb-sm-0">
+            <div class="mt-2" (click)="adminEventById(2)">
+                <img src="https://image.freepik.com/free-vector/music-event-horizontal-poster-flyer-template-with-gradient-colorful-design_85212-212.jpg" class="card-img-top" alt="..." />
+                <div class='clubNeme float-start bg-light-black mt-3 mb-2 ps-3 pe-3 pt-1'>
+                    Mon, Dec 04  7:30PM
+                </div>
+                <h5 class='float-start'>A guide to building an edtech startup</h5>
+            </div>
+            <div class='Profile-footer mt-2' (click)="setForEdit(1)">
+                <button class="btn btn-primary btn-local mb-3">
+                   Edit
+                </button>
+            </div>
+        </div>
+        <div class="card add pt-5 pb-2 font-white col-md-4 m-2 mb-sm-0" (click)="add()">
+            <lucide-icon name="plus" size="200" class="mt-3" ></lucide-icon>
+        </div>
+    </div>
+</div>
